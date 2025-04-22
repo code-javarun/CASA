@@ -221,4 +221,97 @@ body {
     color: #555;
     line-height: 1.6;
   }
+
   
+  /* Price Section */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.price {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pricing-tier {
+    flex: 1;
+    min-width: 200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pricing-tier:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-tier h2 {
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.price-period {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid #ecf0f1;
+    margin: 20px 0;
+}
+
+.features {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.features li:before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+.choose-plan {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.choose-plan:hover {
+    background-color: #2980b9;
+}
