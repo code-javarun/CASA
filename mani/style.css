@@ -224,15 +224,7 @@ body {
 
   
   /* Price Section */
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
+ 
 .price {
     text-align: center;
     margin-bottom: 40px;
@@ -314,4 +306,98 @@ body {
 
 .choose-plan:hover {
     background-color: #2980b9;
+}
+/* profile section */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.quote-section {
+  flex: 2;
+  min-width: 300px;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #444;
+  line-height: 1.8;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.author-title {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.number-large {
+  font-size: 72px;
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+.posts-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.post {
+  margin-bottom: 30px;
+}
+
+.post-date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-excerpt {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.links {
+  margin-top: 40px;
+}
+
+.link {
+  display: block;
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.link:hover {
+  color: #000;
 }
