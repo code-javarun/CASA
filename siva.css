@@ -51,9 +51,7 @@ body {
   font-weight: bold;
 }
 
-.navbar a.active {
-  border-top: 3px solid #009cff;
-}
+
 .navbar a:hover{
   background-color:#ffffffb4;
   color:  #009cff;
@@ -68,9 +66,19 @@ body {
   padding: 60px 10%;
   background: #f9f9f9;
 }
+.hero img{
+  box-shadow:  0 8px 40px 0 rgba(0, 0, 0, 0.7), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+
+}
 
 .hero-content {
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow:  0 8px 40px 0 rgba(0, 0, 0, 0.7), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
   max-width: 50%;
+  
 }
 
 .hero-content h4 {
