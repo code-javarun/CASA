@@ -9,8 +9,9 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 20px 20px;
     font-size: 14px;
+    
   }
   
   .top-bar a {
@@ -27,14 +28,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 40px 30px;
     background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 14px;
   }
   
   .logo {
-    font-size: 28px;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 50px;
     font-weight: bold;
     color: #009cff;
   }
@@ -62,7 +65,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 60px 10%;
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
+    background-image: url(./img/pastel-blue-vignette-concrete-textured-background.jpg);
   }
   
   .hero-content {
