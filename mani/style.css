@@ -9,8 +9,9 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 20px 20px;
     font-size: 14px;
+    
   }
   
   .top-bar a {
@@ -18,19 +19,25 @@ body {
     margin: 0 5px;
     text-decoration: none;
   }
+  .navbar a:hover{
+    border-bottom: 3px solid #009cff;
+
+  }
   
   .info-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 40px 30px;
     background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 14px;
   }
   
   .logo {
-    font-size: 28px;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 50px;
     font-weight: bold;
     color: #009cff;
   }
@@ -49,16 +56,17 @@ body {
     font-weight: bold;
   }
   
-  .navbar a.active {
+  /* .navbar a.active {
     border-bottom: 3px solid #009cff;
   }
-  
+   */
   .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px 10%;
-    background: #f9f9f9;
+    /* background: #f9f9f9; */
+    background-image: url(./img/pastel-blue-vignette-concrete-textured-background.jpg);
   }
   
   .hero-content {
@@ -401,3 +409,157 @@ body {
 .link:hover {
   color: #000;
 }
+
+/* footer ::content */
+        /* Header Styles */
+        h1 {
+          font-size: 36px;
+          color: #2c3e50;
+          margin-bottom: 10px;
+      }
+
+      h2 {
+          font-size: 24px;
+          color: #3498db;
+          margin: 20px 0 10px;
+      }
+
+      h3 {
+          font-size: 20px;
+          color: #2c3e50;
+          margin: 15px 0 10px;
+          text-transform: uppercase;
+      }
+
+      h4 {
+          font-size: 18px;
+          color: #2c3e50;
+          margin: 15px 0 10px;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 5px;
+      }
+
+      /* Layout Styles */
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 40px;
+      }
+
+      .main-content {
+          flex: 2;
+          min-width: 300px;
+      }
+
+      .sidebar {
+          flex: 1;
+          min-width: 250px;
+      }
+
+      /* Content Styles */
+      .branding {
+          margin-bottom: 30px;
+      }
+
+      .branding h2 {
+          display: inline-block;
+          margin-right: 15px;
+      }
+
+      .branding span {
+          color: #7f8c8d;
+          font-size: 14px;
+      }
+
+      .service-logo {
+          font-weight: bold;
+          margin: 5px 0;
+      }
+
+      /* About Us Section */
+      .about-us {
+          margin-bottom: 30px;
+      }
+
+      .about-us p {
+          margin-bottom: 15px;
+          color: #555;
+      }
+
+      .view-more {
+          display: inline-block;
+          color: #3498db;
+          text-decoration: none;
+          font-weight: bold;
+          margin-top: 10px;
+      }
+
+      /* Posts Section */
+      .post-item {
+          margin-bottom: 20px;
+          padding-bottom: 15px;
+          border-bottom: 1px dashed #ddd;
+      }
+
+      .post-title {
+          font-weight: bold;
+          margin-bottom: 5px;
+      }
+
+      .post-date {
+          font-size: 12px;
+          color: #7f8c8d;
+      }
+
+      /* Comments Section */
+      .comment-item {
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+          border-bottom: 1px dashed #ddd;
+      }
+
+      .comment-text {
+          font-style: italic;
+          margin: 5px 0;
+      }
+
+      .comment-date {
+          font-size: 12px;
+          color: #7f8c8d;
+      }
+
+      /* Tags Section */
+      .tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-bottom: 30px;
+      }
+
+      .tag {
+          background-color: #eee;
+          padding: 3px 10px;
+          border-radius: 3px;
+          font-size: 12px;
+          color: #555;
+      }
+
+      /* Footer Styles */
+      footer {
+          margin-top: 50px;
+          padding-top: 20px;
+          border-top: 1px solid #ddd;
+          text-align: center;
+          color: #7f8c8d;
+          font-size: 14px;
+      }
+
+      .footer-links {
+          margin-top: 15px;
+      }
+
+      .footer-links a {
+          color: #3498db;
+          text-decoration: none;
+          margin: 0 10px;
+      }
