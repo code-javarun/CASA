@@ -171,4 +171,54 @@ body {
     object-fit: cover;
     border-radius: 4px;
   }
-    
+ /* our services     */
+ .our-services {
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+  }
+  
+  .service-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #00aaff;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .service-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .service-box p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
