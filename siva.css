@@ -230,8 +230,8 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
-.icon {
-  font-size: 40px;
+.img {
+  font-size: 100px;
   color: #00aaff;
   display: inline-block;
   margin-bottom: 15px;
