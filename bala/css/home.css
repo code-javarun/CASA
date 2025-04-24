@@ -1,0 +1,191 @@
+/* Reset & Base */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* HEADER */
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  .logo span {
+    color: #3498db;
+  }
+  
+  .home-header nav a {
+    margin: 0 12px;
+    font-weight: 600;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .home-header nav a:hover {
+    color: #3498db;
+  }
+  
+  /* HERO */
+  .home-hero {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .home-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-hero p {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  /* FEATURES */
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    max-width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  
+  .feature-card h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    color: #555;
+  }
+  
+  /* TESTIMONIALS */
+  .home-testimonials {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .home-testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    margin: 15px auto;
+    max-width: 600px;
+    padding: 20px;
+    border-left: 5px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h4 {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* FOOTER */
+  .home-footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .home-features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-header {
+      flex-direction: column;
+    }
+  
+    .home-header nav {
+      margin-top: 10px;
+    }
+  }
+  .back-button-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #1a242f;
+  }
+  
