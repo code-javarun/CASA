@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Elect - Polls</title>
+    <link rel="stylesheet" href="/CASA/bala/css/poll.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">Smart Elect</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="polls.html" class="active">Polls</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Explore Live Polls</h1>
+        <p>Cast your vote and see instant results!</p>
+        <a href="/CASA/bala/html/bala.html" class="btn-overview">← Back to Overview</a>
+    </section>
+
+    <section class="polls-section">
+        <div class="poll-card">
+            <h2>Who should be the next mayor?</h2>
+            <ul>
+                <li><input type="radio" name="mayor" id="cand1"><label for="cand1">Candidate A</label></li>
+                <li><input type="radio" name="mayor" id="cand2"><label for="cand2">Candidate B</label></li>
+                <li><input type="radio" name="mayor" id="cand3"><label for="cand3">Candidate C</label></li>
+            </ul>
+            <button class="vote-btn">Vote</button>
+        </div>
+
+        <div class="poll-card">
+            <h2>Do you support online voting?</h2>
+            <ul>
+                <li><input type="radio" name="onlinevote" id="yes"><label for="yes">Yes</label></li>
+                <li><input type="radio" name="onlinevote" id="no"><label for="no">No</label></li>
+            </ul>
+            <button class="vote-btn">Vote</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Smart Elect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
