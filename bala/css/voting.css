@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f2f7fb;
+    color: #333;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #2193b0, #6dd5ed);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    animation: slideInLeft 1s ease;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+  }
+  
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .main-nav a.active,
+  .main-nav a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .voting-hero {
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+    background-color: #e1f5fe;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .voting-hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .voting-hero p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .vote-form-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .vote-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .vote-option {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .vote-option input[type="radio"] {
+    transform: scale(1.4);
+    accent-color: #2193b0;
+  }
+  
+  .vote-option label {
+    font-size: 1.1rem;
+  }
+  
+  .submit-btn {
+    background: #2193b0;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .submit-btn:hover {
+    background: #186a83;
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .btn-back {
+    background: #6dd5ed;
+    color: #003c57;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background: #4ac4e0;
+  }
+  
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+  }
+  
+  /* Animations */
+  @keyframes slideInLeft {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes fadeInDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .main-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-nav ul {
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-top: 0.5rem;
+    }
+  
+    .vote-form {
+      padding: 1.5rem;
+    }
+  }
+  
