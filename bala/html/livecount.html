@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Elect - Live Count</title>
+  <link rel="stylesheet" href="/CASA/bala/css/livecount.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="logo">Smart Elect</div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="/CASA/bala/html/home.html">Home</a></li>
+      <li><a href="/CASA/bala/html/poll.html">Polls</a></li>
+      <li><a href="/CASA/bala/html/features.html">Features</a></li>
+      <li><a href="/CASA/bala/html/candidates.html">Candidates</a></li>
+      <li><a href="/CASA/bala/html/voting.html">Voting</a></li>
+      <li><a href="/CASA/bala/html/livecount.html" class="active">Live Count</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="live-hero">
+  <h1>Live Vote Count</h1>
+  <p>See real-time updates and graphical representation of votes!</p>
+</section>
+
+<section class="count-cards">
+  <div class="count-card animate">
+    <h2>Candidate A</h2>
+    <p id="countA">120</p>
+  </div>
+  <div class="count-card animate">
+    <h2>Candidate B</h2>
+    <p id="countB">95</p>
+  </div>
+  <div class="count-card animate">
+    <h2>Candidate C</h2>
+    <p id="countC">60</p>
+  </div>
+</section>
+
+<section class="graph-section">
+  <canvas id="voteChart"></canvas>
+</section>
+
+<div class="btn-container">
+  <a href="/CASA/bala/html/bala.html" class="btn-back">← Back to Overview</a>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2025 Smart Elect. All rights reserved.</p>
+</footer>
+
+<script>
+  const ctx = document.getElementById('voteChart').getContext('2d');
+  const voteChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Candidate A', 'Candidate B', 'Candidate C'],
+      datasets: [{
+        label: 'Vote Count',
+        data: [120, 95, 60],
+        backgroundColor: ['#2196f3', '#4caf50', '#ff9800'],
+        borderRadius: 10,
+      }]
+    },
+    options: {
+      responsive: true,
+      animation: {
+        duration: 1500,
+        easing: 'easeOutBounce'
+      },
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Elect - Final Results</title>
+  <link rel="stylesheet" href="/CASA/bala/css/result.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="logo">Smart Elect</div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="/CASA/bala/html/home.html">Home</a></li>
+      <li><a href="/CASA/bala/html/poll.html">Polls</a></li>
+      <li><a href="/CASA/bala/html/features.html">Features</a></li>
+      <li><a href="/CASA/bala/html/candidates.html">Candidates</a></li>
+      <li><a href="/CASA/bala/html/voting.html">Voting</a></li>
+      <li><a href="/CASA/bala/html/livecount.html" class="active">Live Count</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="result-hero">
+  <h1>Election Result</h1>
+  <p>And the Winner is...</p>
+</section>
+
+<section class="winner-card animate-winner">
+  <h2>🏆 Candidate A 🏆</h2>
+  <p>Total Votes: 120</p>
+</section>
+
+<section class="other-results">
+  <div class="other-candidate">
+    <h3>Candidate B</h3>
+    <p>95 Votes</p>
+  </div>
+  <div class="other-candidate">
+    <h3>Candidate C</h3>
+    <p>60 Votes</p>
+  </div>
+</section>
+
+<div class="btn-container">
+  <a href="home.html" class="btn-back">← Back to Home</a>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2025 Smart Elect. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+  // Confetti celebration effect
+  confetti({
+    particleCount: 200,
+    spread: 70,
+    origin: { y: 0.6 }
+  });
+</script>
+
+</body>
+</html>
