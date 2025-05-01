@@ -68,7 +68,7 @@ p {
     background-color: #0056b3;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;

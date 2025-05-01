@@ -1,4 +1,4 @@
-/* Reset & Base */
+
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -12,7 +12,10 @@ body {
     color: inherit;
   }
   
-  /* HEADER */
+         
+
+
+
   .home-header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +48,7 @@ body {
     color: #3498db;
   }
   
-  /* HERO */
+  
   .home-hero {
     background: linear-gradient(to right, #3498db, #2ecc71);
     color: white;
@@ -79,7 +82,7 @@ body {
     color: white;
   }
   
-  /* FEATURES */
+  
   .home-features {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +116,7 @@ body {
     color: #555;
   }
   
-  /* TESTIMONIALS */
+  
   .home-testimonials {
     background-color: #ecf0f1;
     text-align: center;
@@ -145,7 +148,7 @@ body {
     color: #2c3e50;
   }
   
-  /* FOOTER */
+  
   .home-footer {
     background-color: #3498db;
     color: white;
@@ -154,7 +157,7 @@ body {
     font-size: 0.9rem;
   }
   
-  /* RESPONSIVE */
+  
   @media (max-width: 768px) {
     .home-features {
       flex-direction: column;

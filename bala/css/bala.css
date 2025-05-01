@@ -1,10 +1,10 @@
-/* General heading styles */
+
 h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;          /* Same color for all headings */
-  font-family: Arial, sans-serif;  /* Same font for all headings */
-  font-size: 30px;         /* Same font size for all headings */
-  margin-bottom: 15px;     /* Add margin at the bottom for spacing */
-  font-weight: 600;        /* Font weight for a consistent look */
+  color: #2c3e50;          
+  font-family: Arial, sans-serif;  
+  font-size: 30px;         
+  margin-bottom: 15px;     
+  font-weight: 600;        
 }
 
 
