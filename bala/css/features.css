@@ -82,7 +82,7 @@ a {
     }
 }
 
-/* Features Section */
+
 .feature-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -148,7 +148,7 @@ a {
     }
 }
 
-/* Footer */
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -175,7 +175,7 @@ a {
   }
   
 
-/* Responsive Design */
+
 @media screen and (max-width: 1024px) {
     .feature-list {
         grid-template-columns: repeat(2, 1fr);
